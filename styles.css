@@ -1,0 +1,104 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Full-screen background image */
+body {
+    height: 100vh;
+    background-image: url('images/1.png.jpg'); /* Full-screen background */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* Container to center the weather app */
+.container {
+    background-color: rgba(194, 209, 229, 0.8); /* Lighter background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+  
+/* Weather App Box */
+.weatherly {
+   /* background-color: rgba(255, 255, 255, 0.9);*/
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px; /* Reduced width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+  
+/* Weather App Header */
+.weatherly h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+  
+/* Search Box Styling */
+.search-box {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    width: 65%; /* Adjusted width */
+}
+
+.search-box button {
+    padding: 5px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color:white;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box button img {
+    width: 20px; /* Icon size */
+    margin-left: 8px; /* Space between search box and search icon */
+}
+
+.search-box button:hover {
+    background-color: #8591ae;
+}
+
+/* Weather Info Box 
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+/* Weather Info Elements 
+.weather-info p {
+    margin: 5px 0;
+}
+    */
+
+.weather-icon {
+    width: 60px;
+    margin-bottom: 10px;
+}
