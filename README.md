@@ -29,3 +29,10 @@ Temperature in degrees Celsius.
 Current weather condition (e.g., cloudy, clear sky, rain).
 Humidity level.
 Wind speed.
+
+Screenshots
+-------------
+![image](https://github.com/user-attachments/assets/664eda09-69e5-4902-9fe1-560b5a33772f)
+
+![image](https://github.com/user-attachments/assets/3592c905-6bfe-4fdf-b3b8-1969140410db)
+
